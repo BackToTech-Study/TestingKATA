@@ -22,6 +22,9 @@ KATA for practicing coding concepts
     - [ ] Functional tests
     - [ ] Non-functional tests
   - [ ] User acceptance tests
+  - [ ] Change related testing
+    - [ ] Confirmation testing
+    - [ ] Regresion testing
  - [ ] The test plan and test execution strategy
 
 - [ ] BDD (Behaviour driven development)
