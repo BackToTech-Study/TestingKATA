@@ -27,7 +27,7 @@ KATA for practicing coding concepts
     - [ ] Functional tests
     - [ ] Non-functional tests
   - [ ] User acceptance tests / Beta testing
-  - [ ] Change related testing
+  - [ ] Change related testing [main file](change-related-testing.md)
     - [ ] Confirmation testing
     - [ ] Regresion testing
  - [ ] The test plan and test execution strategy
@@ -42,7 +42,7 @@ KATA for practicing coding concepts
 - [ ] Request and response mock
 - [ ] Refactor and optimize test
 - [ ] Organising locators
-- [ ] Source controll management
+- [ ] Source control management
 
 ## Unit testing
 - [ ] What is a unit test
