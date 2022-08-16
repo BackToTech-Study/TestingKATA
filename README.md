@@ -2,23 +2,22 @@
 KATA for practicing coding concepts
 
 ## Generic testing concepts
-- [ ] Writing test specifications
-- [ ] The test environment
+- [ ] Writing test specifications / cases
+- [ ] Setting up the test environment
 - [ ] Defining Sanity / Smoke Tests
-- [ ] Genearting and managing test data
+- [ ] Generating and managing test data
 - [ ] Testing the Golden Path / Happy Path
 - [ ] Defining negative test scenarios
 - [ ] No data test scenarios
 - [ ] Defining test data boundaries
-- [ ] Mock data
+- [ ] Creating mock data
 - [ ] Testing authentication
 - [ ] Testing authorization
 - [ ] Generating and versioning the the test report / results
 - [ ] Clasification of bugs
-- [ ] Creating tickets / Bug Reporting 
+- [ ] Bug lifecycle (Creating tickets / Bug Reporting / Bug follow up)
 - [ ] Validation (Bugs vs configuration issues)
 - [ ] Test data attributes
-- [ ] Bug follow up
 
 ## Test levels
   - [ ] Unit tests
@@ -34,9 +33,12 @@ KATA for practicing coding concepts
 
 ## Testing concepts
 - [ ] BDD (Behaviour driven development)
+- [ ] Model based testing 
 
 ## Automated testing
-- [ ] Cypress
+- [ ] Cypress 
+  * https://www.udemy.com/course/cypress-io-master-class/
+  * https://www.youtube.com/watch?v=IMx7Ng-T2mw&list=PLzDWIPKHyNmK9NX9_ng2IdrkEr8L4WwB0
 - [ ] Gherkin  & Cucumber
 - [ ] Selenium
 - [ ] Request and response mock
@@ -54,6 +56,8 @@ KATA for practicing coding concepts
   - [ ] Red, Green, Refactor
 
 ## Continuous testing and automatic deployment
+- [ ] Continuous Integration and Testing (CI/CT)
 - [ ] Github actions
 - [ ] Azure devops
+- [ ] Team city
 
