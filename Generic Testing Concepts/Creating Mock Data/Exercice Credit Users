@@ -1,0 +1,21 @@
+Below you will find the requirements to identify the Account Diversity Grade of a user. Read the requirements carefully and identify what test users you need to setup in order to completely test and make sure all the below requirements are covered. (Note: you should identify the optimum (minimum) number of users needed to test all of the requirements)
+
+Requirements:
+
+A user can have different types of loan accounts. Now we grade a user’s Account Diversity based on two factors.
+    1) loanTypeCount
+    2) totalAccounts
+
+loanTypeCount = the number of different (distinct) LoanType values for all accounts that the user has.
+However do not include LoanType = Unknown & Collections but include all others Applicable values for LoanType are ( Home Loan, Heloc, Credit Card, Car Loan, Collections, Unknown)
+
+totalAccounts = total number of loan accounts user has (do not include LoanType = Unknown & Collections but include all others)
+example-> if user has 3 credit cards and 2 home loans and 1 Collection account, then totalAccounts = 5 and loanTypeCount = 2)
+
+The logic to determine accountDiversityGrade is the following:
+
+If totalAccounts> 20 or loanTypeCount >= 4, accountDiversityGrade = A 
+Else if totalAccounts> 10 or loanTypeCount = 3, accountDiversityGrade = B 
+Else if totalAccounts>= 5 or loanTypeCount= 2, accountDiversityGrade = C 
+Else if totalAccounts > 0 or loanTypeCount = 1, accountDiversityGrade = D 
+Else accountDiversityGrade=null (n/a)
