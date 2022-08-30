@@ -52,36 +52,24 @@
 Severity is how severe a bug is! The severity of a bug is derived based on the effect of that bug on the system. It indicates the level of threat that a bug can affect the system. Severity is divided into levels, such as-Severity:
 Realizing the Severity of a bug is critical from risk assessment and management point of view.
 
-	Blocker: The defect affects critical functionality or critical data. It does not have a workaround.  Is a type of a bug that blocks further testing
-
+- **Blocker**: The defect affects critical functionality or critical data. It does not have a workaround.  Is a type of a bug that blocks further testing
 	Ex: Cannot login and test the application.
-
-	Critical: The defect affects major functionality or major data. It has a workaround but is not obvious and is difficult. 
-
+- **Critical**: The defect affects major functionality or major data. It has a workaround but is not obvious and is difficult. 
 	Ex: Such bugs disable the app’s main functionality and are primarily fixed.
 	(App crashes while performing an operation)
-
-	Major: The defect represents a major loss of functionality. It has a workaround, but major parts of the functionality are missing.
-
+- **Major**: The defect represents a major loss of functionality. It has a workaround, but major parts of the functionality are missing.
 	Ex: The product quantity can only be updated from the cart page.
-
-	Minor: The defect affects minor functionality or non-critical data. It has an easy
-	workaround.
-
+- **Minor**: The defect affects minor functionality or non-critical data. It has an easy workaround.
 	Ex: The text does not fit entirely in an input bar.
-
-	Trivial/LOW: The defect does not affect functionality or data. It does not even need a workaround. It does not impact productivity or efficiency. It is merely an inconvenience. 
-
+- **Trivial/LOW**: The defect does not affect functionality or data. It does not even need a workaround. It does not impact productivity or efficiency. It is merely an inconvenience. 
 	EX: wrong button size
 	
 ### Bug Priority
 Priority is how quickly a bug should be fixed and eradicated from the website. Bug priority indicates the sense of urgency for dealing with a bug on our website.
 
-	Low: The repair of the defect can be done once the more serious defect has been fixed
-
-	Medium: During the normal course of the development activities defect should be resolved. It can wait until a new version is created
-
-	High: The defect must be resolved as soon as possible as it affects the system severely and cannot be used until it is fixed
+- **Low**: The repair of the defect can be done once the more serious defect has been fixed
+- **Medium**: During the normal course of the development activities defect should be resolved. It can wait until a new version is created
+- **High**: The defect must be resolved as soon as possible as it affects the system severely and cannot be used until it is fixed
 	
 ### Good to be aware of 
 
